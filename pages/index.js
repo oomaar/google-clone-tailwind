@@ -1,65 +1,58 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import { useRouter } from "next/router";
+import { useRef } from 'react';
+import { MicrophoneIcon } from "@heroicons/react/solid";
+import { SearchIcon } from "@heroicons/react/solid";
+
 
 export default function Home() {
+  const router = useRouter();
+  const searchInputRef = useRef(null);
+
+  const search = e => {
+    e.preventDefault();
+    router.push(`/search?term=${searchInputRef.current.value}`);
+  };
+
   return (
-    <div className={styles.container}>
+    <div className="flex flex-col items-center justify-center h-screen">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Google Clone</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      {/* Header */}
+      <div className="flex w-full justify-between text-md sm:px-3 py-1">
+        <div className="flex gap-x-4 items-center">
+          <p className="link__style">About</p>
+          <p className="link__style">Store</p>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+        <div className="flex gap-x-4 items-center">
+          <p className="link__style">Gmail</p>
+          <p className="link__style">Images</p>
+          <img className="h-10 rounded-full" src="/pharaoh.png" alt="pharaoh" />
+        </div>
+      </div>
+      {/* Body */}
+      <form className="flex flex-1 items-center mt-48 flex-col w-full">
+        <img className="object-contain h-20 mb-8" src="/logo.png" alt="Google" />
+        <div className="input__container">
+          <SearchIcon className="h-5 mr-3 text-gray-500" />
+          <input ref={searchInputRef} className="flex-grow focus:outline-none" type="text" />
+          <MicrophoneIcon className="h-5 cursor-pointer" />
+        </div>
+        <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
+          <button
+            type="submit"
+            onClick={search}
+            className="btn"
+          >
+            Google Search
+          </button>
+          <button onClick={search} className="btn">Im Feeling Lucky</button>
+        </div>
+      </form>
+      {/* Footer */}
     </div>
   )
 }
