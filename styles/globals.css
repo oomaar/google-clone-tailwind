@@ -13,6 +13,10 @@
         @apply hover:underline cursor-pointer;
     }
 
+    .pageArrowContainer {
+        @apply flex flex-grow flex-col items-center cursor-pointer hover:underline;
+    }
+
     /* Large Classes */
     .home__inputContainer {
         @apply flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full 
