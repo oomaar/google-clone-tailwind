@@ -1,10 +1,9 @@
 import Head from 'next/head';
 import { useRouter } from "next/router";
 import { useRef } from 'react';
-import { MicrophoneIcon } from "@heroicons/react/solid";
-import { SearchIcon } from "@heroicons/react/solid";
-import { ViewGridIcon } from "@heroicons/react/solid";
+import { MicrophoneIcon, ViewGridIcon, SearchIcon } from "@heroicons/react/solid";
 import { Avatar } from '../components';
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -36,25 +35,23 @@ export default function Home() {
           <Avatar url="/pharaoh.png" />
         </div>
       </header>
-      {/* Body */}
-      {/* <form className="flex flex-1 items-center mt-48 flex-col w-full">
-        <img className="object-contain h-20 mb-8" src="/logo.png" alt="Google" />
-        <div className="input__container">
+      <form className="flex flex-col items-center mt-44 flex-grow">
+        <Image
+          src="/logo.png"
+          alt="Google"
+          height={100}
+          width={300}
+        />
+        <div className="home__inputContainer">
           <SearchIcon className="h-5 mr-3 text-gray-500" />
           <input ref={searchInputRef} className="flex-grow focus:outline-none" type="text" />
           <MicrophoneIcon className="h-5 cursor-pointer" />
         </div>
-        <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
-          <button
-            type="submit"
-            onClick={search}
-            className="btn"
-          >
-            Google Search
-          </button>
-          <button onClick={search} className="btn">Im Feeling Lucky</button>
+        <div className="home__buttonsContainer">
+          <button className="btn">Google Search</button>
+          <button className="btn">Im Feeling Lucky</button>
         </div>
-      </form> */}
+      </form>
       {/* Footer */}
     </div>
   )
