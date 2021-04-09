@@ -23,4 +23,9 @@
     .home__buttonsContainer {
         @apply flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4;
     }
+
+    .headerOptions__Container {
+        @apply flex w-full text-gray-700 justify-evenly text-sm lg:text-base lg:justify-start
+        lg:space-x-36 lg:pl-52 border-b-[1px] mt-8;
+    }
 }
