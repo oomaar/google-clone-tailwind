@@ -7,11 +7,24 @@ export default {
     "queries": {
         "request": [
             {
-                "title": "Google Custom Search - Hello World",
-                "totalResults": "2",
-                "searchTerms": "Hello World",
-                "count": 2,
+                "title": "Google Custom Search - test",
+                "totalResults": "377000000",
+                "searchTerms": "test",
+                "count": 10,
                 "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "a235deb3f53f8d31f"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - test",
+                "totalResults": "377000000",
+                "searchTerms": "test",
+                "count": 10,
+                "startIndex": 11,
                 "inputEncoding": "utf8",
                 "outputEncoding": "utf8",
                 "safe": "off",
@@ -23,278 +36,406 @@ export default {
         "title": "Google"
     },
     "searchInformation": {
-        "searchTime": 4.111653,
-        "formattedSearchTime": "4.11",
-        "totalResults": "2",
-        "formattedTotalResults": "2"
+        "searchTime": 0.352815,
+        "formattedSearchTime": "0.35",
+        "totalResults": "377000000",
+        "formattedTotalResults": "377,000,000"
     },
     "items": [
         {
             "kind": "customsearch#result",
-            "title": "Construction NOI's 2008 - Google My Maps",
-            "htmlTitle": "Construction NOI&#39;s 2008 - Google My Maps",
-            "link": "https://www.google.com/maps/ms?ie=UTF8&oe=UTF8&msa=0&msid=116897259435499505123.00046c678bab4e8333867",
+            "title": "Google Forms: Free Online Surveys for Personal Use",
+            "htmlTitle": "Google Forms: Free Online Surveys for Personal Use",
+            "link": "https://www.google.com/forms/about/",
             "displayLink": "www.google.com",
-            "snippet": "Hello World. Sugarwood Office Park. Villas at Sugar Run Phase 2. Forest Drive Office \nPark. Pleasantville Elementary School. Tutor Time Learning Center. Rolls Royce\n ...",
-            "htmlSnippet": "<b>Hello World</b>. Sugarwood Office Park. Villas at Sugar Run Phase 2. Forest Drive Office <br>\nPark. Pleasantville Elementary School. Tutor Time Learning Center. Rolls Royce<br>\n&nbsp;...",
-            "cacheId": "7e5Xxqmdgh4J",
-            "formattedUrl": "https://www.google.com/maps/ms?ie=UTF8&oe=UTF8&msa=0...",
-            "htmlFormattedUrl": "https://www.google.com/maps/ms?ie=UTF8&amp;oe=UTF8&amp;msa=0...",
+            "snippet": "Create a new survey and edit it with others at the same time. Choose from a \nvariety of pre-made themes or create your own. Free with a Google account.",
+            "htmlSnippet": "Create a new survey and edit it with others at the same time. Choose from a <br>\nvariety of pre-made themes or create your own. Free with a Google account.",
+            "cacheId": "DQBEwPZfQ7YJ",
+            "formattedUrl": "https://www.google.com/forms/about/",
+            "htmlFormattedUrl": "https://www.google.com/forms/about/",
             "pagemap": {
-                "website": [
+                "cse_thumbnail": [
                     {
-                        "image": "https://www.google.com/maps/d/thumbnail?mid=1sSvRL1Lh6phvBk8TG7xT-yo4W-0",
-                        "name": "Construction NOI's 2008 - Google My Maps",
-                        "description": "Active 2008 NOI's As of 6/15/2009",
-                        "url": "https://www.google.com/maps/d/viewer?mid=1sSvRL1Lh6phvBk8TG7xT-yo4W-0"
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTp-9xDMO5RmF7Aic4ponxEZBKxfnMQMCUnms9mxHFW4UBHEDHMLeA3fA",
+                        "width": "120",
+                        "height": "120"
                     }
                 ],
                 "metatags": [
                     {
-                        "og:image": "https://www.google.com/maps/d/thumbnail?mid=1sSvRL1Lh6phvBk8TG7xT-yo4W-0",
-                        "apple-itunes-app": "app-id=585027354, app-argument=comgooglemaps://?mapsurl=https://www.google.com/mymaps/viewer?mid%3D1sSvRL1Lh6phvBk8TG7xT-yo4W-0%26hl%3Den_US",
-                        "og:type": "website",
-                        "twitter:card": "summary_large_image",
-                        "twitter:title": "Construction NOI's 2008 - Google My Maps",
-                        "og:site_name": "Google My Maps",
-                        "viewport": "initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0,width=device-width",
-                        "twitter:description": "Active 2008 NOI's As of 6/15/2009",
-                        "og:title": "Construction NOI's 2008 - Google My Maps",
-                        "og:url": "https://www.google.com/maps/d/viewer?mid=1sSvRL1Lh6phvBk8TG7xT-yo4W-0",
-                        "og:description": "Active 2008 NOI's As of 6/15/2009",
-                        "twitter:image:src": "https://www.google.com/maps/d/thumbnail?mid=1sSvRL1Lh6phvBk8TG7xT-yo4W-0"
+                        "viewport": "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
                     }
                 ],
                 "cse_image": [
                     {
-                        "src": "https://www.google.com/maps/d/thumbnail?mid=1sSvRL1Lh6phvBk8TG7xT-yo4W-0"
+                        "src": "https://www.google.com/forms/about/images/common/add-pam.jpg"
                     }
                 ]
             }
         },
         {
             "kind": "customsearch#result",
-            "title": "iPhone 11 Kameraları Tripofobikleri Rahatsız Etti",
-            "htmlTitle": "iPhone 11 Kameraları Tripofobikleri Rahatsız Etti",
-            "link": "https://www.google.com/appserve/mkt/p/AFnwnKVuohG-E9L4bcW64B8yOSCGEIT-S7NZe0VdaKqpisscmfKtrx1MF-c1k4dstX6Ot999GQtdjSIqkxXocMdG8HDijFjQBVaKplyokxmExD_yp9OJxzWsQNESeVDgIeaIUv5chugB1jrkjKqb7sek-1VtdOmmErxubsSa4dz7yP9B8ZYezwUKkKtvC4HaSCfwYQ",
+            "title": "How Google's Algorithm is Focused on Its Users - Google Search",
+            "htmlTitle": "How Google&#39;s Algorithm is Focused on Its Users - Google Search",
+            "link": "https://www.google.com/search/howsearchworks/mission/users/",
             "displayLink": "www.google.com",
-            "snippet": "11 Eyl 2019 ... pixel 4 xl çakması olmuş Hello World. Yanıtla. +2. -2. Yorumunuz minimum 10 karakter \nolmalıdır.(0). Ziyaretçi olarak yorum yapıyorsun, dilersen giriş ...",
-            "htmlSnippet": "11 Eyl 2019 <b>...</b> pixel 4 xl çakması olmuş <b>Hello World</b>. Yanıtla. +2. -2. Yorumunuz minimum 10 karakter <br>\nolmalıdır.(0). Ziyaretçi olarak yorum yapıyorsun, dilersen giriş&nbsp;...",
-            "cacheId": "sj5s-MHutSAJ",
-            "formattedUrl": "https://www.google.com/.../AFnwnKVuohG-E9L4bcW64B8yOSCGEIT- S7NZe0VdaKqpisscmfKtrx1MF- ...",
-            "htmlFormattedUrl": "https://www.google.com/.../AFnwnKVuohG-E9L4bcW64B8yOSCGEIT- S7NZe0VdaKqpisscmfKtrx1MF- ...",
+            "snippet": "Rigorous testing. Our goal is always to provide you the most useful and relevant \ninformation. Any changes we make ...",
+            "htmlSnippet": "Rigorous <b>testing</b>. Our goal is always to provide you the most useful and relevant <br>\ninformation. Any changes we make&nbsp;...",
+            "cacheId": "ObxN5sVIizUJ",
+            "formattedUrl": "https://www.google.com/search/howsearchworks/mission/users/",
+            "htmlFormattedUrl": "https://www.google.com/search/howsearchworks/mission/users/",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "referrer": "no-referrer",
+                        "twitter:title": "How Google's Algorithm is Focused on Its Users - Google Search",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Learn how changes to Google's algorithm are tested with Google search experiments to ensure that we continue to provide the most useful results, and how ads help us keep Google Search free.",
+                        "og:title": "How Google's Algorithm is Focused on Its Users - Google Search",
+                        "og:description": "Learn how changes to Google's algorithm are tested with Google search experiments to ensure that we continue to provide the most useful results, and how ads help us keep Google Search free."
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Cross-Site Scripting – Application Security – Google",
+            "htmlTitle": "Cross-Site Scripting – Application Security – Google",
+            "link": "https://www.google.com/about/appsecurity/learning/xss/",
+            "displayLink": "www.google.com",
+            "snippet": "How can I test for XSS? Manual testing (\"black-box testing\"); Code review (\"white-\nbox testing\"); Unit tests; Web application security scanners; Which testing ...",
+            "htmlSnippet": "How can I <b>test</b> for XSS? Manual <b>testing</b> (&quot;black-box <b>testing</b>&quot;); Code review (&quot;white-<br>\nbox <b>testing</b>&quot;); Unit <b>tests</b>; Web application security scanners; Which <b>testing</b>&nbsp;...",
+            "cacheId": "dOZqrO41xLQJ",
+            "formattedUrl": "https://www.google.com/about/appsecurity/learning/xss/",
+            "htmlFormattedUrl": "https://www.google.com/about/appsecurity/learning/xss/",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "viewport": "initial-scale=1, minimum-scale=1, width=device-width"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Google Webmaster tools' robots.txt Tester",
+            "htmlTitle": "Google Webmaster tools&#39; robots.txt Tester",
+            "link": "https://www.google.com/webmasters/tools/robots-testing-tool",
+            "displayLink": "www.google.com",
+            "snippet": "Use Search Console to monitor Google Search results data for your properties.",
+            "htmlSnippet": "Use Search Console to monitor Google Search results data for your properties.",
+            "formattedUrl": "https://www.google.com/webmasters/tools/robots-testing-tool",
+            "htmlFormattedUrl": "https://www.google.com/webmasters/tools/robots-<b>testing</b>-tool",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "viewport": "width=device-width, initial-scale=1",
+                        "format-detection": "telephone=no"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Test your app before release : Google Play Academy",
+            "htmlTitle": "<b>Test</b> your app before release : Google Play Academy",
+            "link": "https://www.google.com/appserve/mkt/p/ABMBUQMz9UJ9SNwbimvTDICavSr6uRmNmmW6gHAK7a-QmlYya2Mbt_lFxqvK4kFbLXA3pH9tftLLb1K8g5FYpzRnjoR4zy21cLhVSW2RZCT6F_S1Y6ubDg",
+            "displayLink": "www.google.com",
+            "snippet": "May 30, 2018 ... Testing can be a valuable step for your app, whether you have a production app \nand are preparing an update, or you have a new app and are ...",
+            "htmlSnippet": "May 30, 2018 <b>...</b> <b>Testing</b> can be a valuable step for your app, whether you have a production app <br>\nand are preparing an update, or you have a new app and are&nbsp;...",
+            "cacheId": "XXyXqrv8-MoJ",
+            "formattedUrl": "https://www.google.com/.../ ABMBUQMz9UJ9SNwbimvTDICavSr6uRmNmmW6gHAK7a-QmlYya2M...",
+            "htmlFormattedUrl": "https://www.google.com/.../ ABMBUQMz9UJ9SNwbimvTDICavSr6uRmNmmW6gHAK7a-QmlYya2M...",
             "pagemap": {
                 "cse_thumbnail": [
                     {
-                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnKdjHHqbeIhAw75-0shbveyF8249CRbFwRybt74WlN3P0zVHFD09sDcA",
-                        "width": "300",
-                        "height": "168"
-                    }
-                ],
-                "imageobject": [
-                    {
-                        "width": "788",
-                        "url": "https://cdn.webtekno.com/media/cache/content_detail_v2/article/75733/iphone-11-kameralari-tripofobikleri-rahatsiz-etti-1568185335.jpg",
-                        "height": "443"
-                    },
-                    {
-                        "width": "256",
-                        "url": "https://www.webtekno.com/icon-logo.png",
-                        "height": "256"
-                    }
-                ],
-                "person": [
-                    {
-                        "name": "Emre Ömer Zehir"
-                    }
-                ],
-                "organization": [
-                    {
-                        "name": "Webtekno",
-                        "sameas": "https://www.facebook.com/webtekno"
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-dlEs6RT1SXBNAfMZGZmFRFR9oF6dYsPieF1ciLpzmTCjiIWq6hXmRg",
+                        "width": "450",
+                        "height": "70"
                     }
                 ],
                 "metatags": [
                     {
-                        "p:domain_verify": "d329837ffa688680d7e67d45e7e147c6",
-                        "og:image": "https://cdn.webtekno.com/media/cache/content_detail_v2/article/75733/iphone-11-kameralari-tripofobikleri-rahatsiz-etti-1568185335.jpg",
-                        "og:type": "website",
+                        "og:image": "https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/organizations/branding_logos/52/full/gpa-fulllock.png",
                         "twitter:card": "summary",
-                        "twitter:title": "iPhone 11 Kameraları Tripofobikleri Rahatsız Etti",
-                        "og:site_name": "Webtekno",
-                        "twitter:url": "https://www.webtekno.com/iphone-11-in-kamera-tasarimi-tripofobikleri-hayata-kusturdu-h75733.html",
-                        "og:title": "iPhone 11 Kameraları Tripofobikleri Rahatsız Etti",
-                        "yandex-verification": "709416476c15dc22",
-                        "medium": "news",
-                        "og:description": "Yeni iPhone'ların kameraları, kameraları, nadir görülen bir fobi çeşidi olan tripofobisi bulunanların hiç de hoşuna gitmedi.",
-                        "twitter:image": "https://cdn.webtekno.com/media/cache/content_detail_v2/article/75733/iphone-11-kameralari-tripofobikleri-rahatsiz-etti-1568185335.jpg",
-                        "fb:app_id": "1037724072951294",
-                        "twitter:site": "@webtekno",
-                        "viewport": "width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no",
-                        "twitter:description": "Yeni iPhone'ların kameraları, kameraları, nadir görülen bir fobi çeşidi olan tripofobisi bulunanların hiç de hoşuna gitmedi.",
-                        "og:locale": "tr_TR",
-                        "og:url": "https://www.webtekno.com/iphone-11-in-kamera-tasarimi-tripofobikleri-hayata-kusturdu-h75733.html",
-                        "google-play-app": "app-id=com.izmo.webtekno"
-                    }
-                ],
-                "comment": [
-                    {
-                        "upvotecount": "25",
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-11T10:25:42+0300",
-                        "text": "Bence de saçma bir tasarım olmuş gözüme batıyor çok kötü duruyor."
-                    },
-                    {
-                        "upvotecount": "4",
-                        "author": "Ziyaretçi",
-                        "downvotecount": "20",
-                        "datecreated": "2019-09-11T10:15:25+0300",
-                        "text": "Ulan sanki ilk ve tek 3 gözlü telefon bu da gidin işinize . Her kesimin zevk-i farklıdır kendinizi az teskin ediniz."
-                    },
-                    {
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-12T07:59:54+0300",
-                        "text": "Buğra kardeş sen anlamazsın ben Farsça ve ibranice biliyorum."
-                    },
-                    {
-                        "author": "bugraarac",
-                        "datecreated": "2019-09-11T22:12:47+0300",
-                        "text": "sen bi önce zevk-i yazarken araya çizgi koyma sonra konuşuruz"
-                    },
-                    {
-                        "author": "Ziyaretçi",
-                        "downvotecount": "9",
-                        "datecreated": "2019-09-11T12:47:31+0300",
-                        "text": "Yazdıklarımı anlamayıp dislike atmışlar. Kitap okuyunuz ."
-                    },
-                    {
-                        "upvotecount": "7",
-                        "author": "protursu",
-                        "datecreated": "2019-09-11T11:29:32+0300",
-                        "text": "Sıkıntı 3 kamera olması değil zaten. Sıkıntı tasarımda"
-                    },
-                    {
-                        "upvotecount": "1",
-                        "author": "kesinipvar",
-                        "downvotecount": "12",
-                        "datecreated": "2019-09-11T10:20:55+0300",
-                        "text": "Aman kardeş sen alma sorun yok :) Yani gerçekten adamın tüm derdi bitti bi bunları mı memnun edemedi Allah aşkına ya"
-                    },
-                    {
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-12T16:34:27+0300",
-                        "text": "iPhone gittikçe kendini batırıyor onca para vermeye değmez tasarım sıfır"
-                    },
-                    {
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-12T07:03:04+0300",
-                        "text": "Kamera lar arkayi çok bozmuş iPhone 7 ve 8 den sonra bozmaya basladi"
-                    },
-                    {
-                        "upvotecount": "1",
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-12T00:54:02+0300",
-                        "text": "Uçuk fiyatlarla böyle kötü bir telefonu nasıl alırlar"
-                    },
-                    {
-                        "upvotecount": "1",
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-11T23:33:12+0300",
-                        "text": "3000dolar fiyatı bence daha korkutucu!!"
-                    },
-                    {
-                        "upvotecount": "2",
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-11T22:01:20+0300",
-                        "text": "Çakma telefonlar gibi iğrenç tasarım kazık fiyat beğenen alır tabi zevk meselesi"
-                    },
-                    {
-                        "upvotecount": "2",
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-11T17:09:06+0300",
-                        "text": "Tasarım kötü fakat performans ve o koyu yeşil ile yine çoğu kişiyi etkileyebilir"
-                    },
-                    {
-                        "upvotecount": "2",
-                        "author": "Ziyaretçi",
-                        "downvotecount": "2",
-                        "datecreated": "2019-09-11T15:22:56+0300",
-                        "text": "pixel 4 xl çakması olmuş Hello World"
-                    },
-                    {
-                        "upvotecount": "1",
-                        "author": "berkay",
-                        "downvotecount": "1",
-                        "datecreated": "2019-09-11T15:45:37+0300",
-                        "text": "Aynen çıkmayan telefonun tasarımını çalmış apple"
-                    },
-                    {
-                        "upvotecount": "4",
-                        "author": "talha4799",
-                        "downvotecount": "1",
-                        "datecreated": "2019-09-11T13:36:36+0300",
-                        "text": "o çıkıntılar ne"
-                    },
-                    {
-                        "upvotecount": "7",
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-11T12:30:07+0300",
-                        "text": "Her sene telefon çıkarıp üzerine hiç birşey koymadan. Ama fiyat farkı olarak her sene 5 bin TL koyan çöp Apple. Intel gibi bunların da havası sönecek yakında"
-                    },
-                    {
-                        "upvotecount": "3",
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-11T11:47:43+0300",
-                        "text": "Bende de var tripofobi çok rahatsız etti tasarım Instagram akışında gördüğüm her an şikayet ediyorum"
-                    },
-                    {
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-12T16:13:51+0300",
-                        "text": "Benim de var ama bu bence o kadar abartılacak değil ya da senin o psikolojik sorunun çok etkili"
-                    },
-                    {
-                        "author": "Ziyaretçi",
-                        "datecreated": "2019-09-11T18:58:53+0300",
-                        "text": "O O O bunuda et."
+                        "og:site_name": "Google Play Academy",
+                        "og:title": "Test your app before release",
+                        "csrf-param": "authenticity_token",
+                        "og:article:tag": "Learn about improving app quality",
+                        "apple-mobile-web-app-status-bar-style": "white",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "apple-mobile-web-app-capable": "yes",
+                        "og:author": "Play Academy",
+                        "csrf-token": "hqdoOoJRuQilEEAoU7PqGJTiAKXSFBxJA5eD5k+ka1wTT89GzkKTIs43/5moflcrs2u8HpZ/5z/c3BaMZe0OSg==",
+                        "og:locale": "en",
+                        "og:url": "https://playacademy.exceedlms.com/student/path/4915-test-your-app-before-release"
                     }
                 ],
                 "cse_image": [
                     {
-                        "src": "https://cdn.webtekno.com/media/cache/content_detail_v2/article/75733/iphone-11-kameralari-tripofobikleri-rahatsiz-etti-1568185335.jpg"
+                        "src": "https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/organizations/branding_logos/52/full/gpa-fulllock.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Cristiano Ronaldo Tests Positive for Coronavirus - The New York ...",
+            "htmlTitle": "Cristiano Ronaldo <b>Tests</b> Positive for Coronavirus - The New York ...",
+            "link": "https://www.google.com/appserve/mkt/p/AD-FnEzVKUPp1ZKfFqhHGWZk8UHbyKmQ98cXm6WQ4f1DbSNMyzUVSOGz3pTvGV_eMrS7Cka0PfXmboqtFrRnqSj8qmug42kPipD2Pu-zAnNECe4lAQcSp3ixtkQ9jetw91YfZHWsvmFNsaJ3TkyBV7ae8Xe8RWY2azgdZF2L2J2l_U3cS_GJRAKgpvSQXf1QnoY",
+            "displayLink": "www.google.com",
+            "snippet": "Oct 13, 2020 ... The star forward tested positive while on international duty with Portugal. He is \nasymptomatic, national team officials said.",
+            "htmlSnippet": "Oct 13, 2020 <b>...</b> The star forward <b>tested</b> positive while on international duty with Portugal. He is <br>\nasymptomatic, national team officials said.",
+            "formattedUrl": "https://www.google.com/.../AD- FnEzVKUPp1ZKfFqhHGWZk8UHbyKmQ98cXm6WQ4f1DbSNMyzUVS...",
+            "htmlFormattedUrl": "https://www.google.com/.../AD- FnEzVKUPp1ZKfFqhHGWZk8UHbyKmQ98cXm6WQ4f1DbSNMyzUVS...",
+            "pagemap": {
+                "thumbnail": [
+                    {
+                        "src": "https://static01.nyt.com/images/2020/10/13/sports/13ronaldoWEB1/13ronaldoWEB1-thumbStandard.jpg"
                     }
                 ],
-                "breadcrumblist": [
+                "metatags": [
                     {
-                        "title": "iPhone 11 Kameraları Tripofobikleri Rahatsız Etti"
+                        "nyt_uri": "nyt://article/00ee738f-8df7-503d-8a32-1b708bab2e39",
+                        "og:image": "https://static01.nyt.com/images/2020/10/13/sports/13ronaldoWEB1/merlin_178455993_932aa21b-77f7-4c2d-bdce-1ce33b556bec-facebookJumbo.jpg",
+                        "twitter:app:id:googleplay": "com.nytimes.android",
+                        "article:published_time": "2020-10-13T14:40:29.000Z",
+                        "twitter:card": "summary_large_image",
+                        "pt": "article",
+                        "twitter:url": "https://www.nytimes.com/2020/10/13/sports/soccer/cristiano-ronaldo-coronavirus-positive.html",
+                        "pdate": "20201013",
+                        "articleid": "100000007392870",
+                        "al:android:package": "com.nytimes.android",
+                        "al:ipad:app_store_id": "357066198",
+                        "twitter:app:name:googleplay": "NYTimes",
+                        "og:description": "The star forward tested positive while on international duty with Portugal. He is asymptomatic, national team officials said.",
+                        "twitter:image": "https://static01.nyt.com/images/2020/10/13/sports/13ronaldoWEB1/merlin_178455993_932aa21b-77f7-4c2d-bdce-1ce33b556bec-videoSixteenByNineJumbo1600.jpg",
+                        "pst": "News",
+                        "twitter:image:alt": "Cristiano Ronaldo has tested positive for Covid-19.",
+                        "al:iphone:app_name": "NYTimes",
+                        "article:modified_time": "2020-10-13T18:15:44.000Z",
+                        "news_keywords": "Coronavirus;COVID-19,Soccer,Cristiano Ronaldo,Juventus Soccer Team",
+                        "scg": "soccer",
+                        "article:content_tier": "metered",
+                        "msapplication-starturl": "https://www.nytimes.com",
+                        "image": "https://static01.nyt.com/images/2020/10/13/sports/13ronaldoWEB1/merlin_178455993_932aa21b-77f7-4c2d-bdce-1ce33b556bec-facebookJumbo.jpg",
+                        "thumbnail": "https://static01.nyt.com/images/2020/10/13/sports/13ronaldoWEB1/13ronaldoWEB1-thumbStandard.jpg",
+                        "og:type": "article",
+                        "og:image:alt": "Cristiano Ronaldo has tested positive for Covid-19.",
+                        "twitter:title": "Cristiano Ronaldo Tests Positive for Coronavirus and Enters Isolation",
+                        "article:section": "Sports",
+                        "cg": "sports",
+                        "pubp_event_id": "pubp://event/e958b1444c1240778b8965aa7d71e0b7",
+                        "og:title": "Cristiano Ronaldo Tests Positive for Coronavirus and Enters Isolation",
+                        "cn": "coronavirus",
+                        "url": "https://www.nytimes.com/2020/10/13/sports/soccer/cristiano-ronaldo-coronavirus-positive.html",
+                        "article:tag": "Coronavirus (2019-nCoV)",
+                        "al:iphone:url": "nytimes://www.nytimes.com/2020/10/13/sports/soccer/cristiano-ronaldo-coronavirus-positive.html",
+                        "al:android:url": "nyt://article/00ee738f-8df7-503d-8a32-1b708bab2e39",
+                        "ct": "news-event",
+                        "twitter:app:url:googleplay": "nyt://article/00ee738f-8df7-503d-8a32-1b708bab2e39",
+                        "al:ipad:url": "nytimes://www.nytimes.com/2020/10/13/sports/soccer/cristiano-ronaldo-coronavirus-positive.html",
+                        "byl": "By Victor Mather and Tariq Panja",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "The star forward tested positive while on international duty with Portugal. He is asymptomatic, national team officials said.",
+                        "al:iphone:app_store_id": "284862083",
+                        "al:ipad:app_name": "NYTimes",
+                        "og:url": "https://www.nytimes.com/2020/10/13/sports/soccer/cristiano-ronaldo-coronavirus-positive.html",
+                        "al:android:app_name": "NYTimes",
+                        "article:opinion": "false"
                     }
                 ],
-                "newsarticle": [
+                "cse_image": [
                     {
-                        "isfamilyfriendly": "TRUE",
-                        "inlanguage": "tr-TR",
-                        "description": "Apple dün yeni akıllı telefonları iPhone11’leri tanıttı. Telefonların kameraları, nadir görülen bir fobi çeşidi olan tripofobisi bulunanların hiç de hoşuna gitmedi.",
-                        "datecreated": "2019-09-11T10:08:35+0300",
-                        "mainentityofpage": "https://www.webtekno.com/iphone-11-in-kamera-tasarimi-tripofobikleri-hayata-kusturdu-h75733.html",
-                        "commentcount": "18",
-                        "articlebody": "Salı akşamı Apple’ın tanıtım etkinliği, şirketin efsanevi CEO’su Steve Jobs’ın adını taşıyan tiyatroda yeni cihazlarını gün yüzüne çıkardı. Bu cihazlar arasında...",
-                        "datemodified": "2019-09-11T10:08:35+0300",
-                        "articlesection": "Mobil",
-                        "genre": "news",
-                        "publishingprinciples": "https://www.webtekno.com/gizlilik",
-                        "headline": "iPhone 11'in Kamera Tasarımı, Tripofobikleri Hayata Küstürdü",
-                        "datepublished": "2019-09-11T10:08:35+0300"
+                        "src": "https://static01.nyt.com/images/2020/10/13/sports/13ronaldoWEB1/13ronaldoWEB1-thumbStandard.jpg",
+                        "width": "75",
+                        "type": "1",
+                        "height": "75"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Google",
+            "htmlTitle": "Google",
+            "link": "https://www.google.com/",
+            "displayLink": "www.google.com",
+            "snippet": "Search the world's information, including webpages, images, videos and more. \nGoogle has many special features to help you find exactly what you're looking ...",
+            "htmlSnippet": "Search the world&#39;s information, including webpages, images, videos and more. <br>\nGoogle has many special features to help you find exactly what you&#39;re looking&nbsp;...",
+            "cacheId": "y14FcUQOGl4J",
+            "formattedUrl": "https://www.google.com/",
+            "htmlFormattedUrl": "https://www.google.com/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT3X9ZpkcNrr2kAcGZuXPZTNiK1oeTXhRMCZ1UGxNLf-an4du0eriX01mc",
+                        "width": "320",
+                        "height": "112"
                     }
                 ],
-                "listitem": [
+                "metatags": [
                     {
-                        "item": "Anasayfa",
-                        "name": "Anasayfa",
-                        "position": "1"
-                    },
+                        "referrer": "origin",
+                        "viewport": "width=device-width,minimum-scale=1.0",
+                        "google": "notranslate",
+                        "format-detection": "telephone=no"
+                    }
+                ],
+                "cse_image": [
                     {
-                        "item": "Mobil",
-                        "name": "Mobil",
-                        "position": "2"
+                        "src": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Pre-launch testing for mobile games: tools and best practices on ...",
+            "htmlTitle": "Pre-launch <b>testing</b> for mobile games: tools and best practices on ...",
+            "link": "https://www.google.com/appserve/mkt/proof/p/AD-FnExC71sQkFDNoRrIfoNDZMAA8UWvpSe5n87Dpb-LEf8z0f542VvJ05CaE8s_O3SYMhctapLfgr3E8dbH9qbAGlFAEWF5acQJHxsRHRomks5arcPTRtaBbZS1ejGOvoFD6Qo?disableTrackingProofPage=true",
+            "displayLink": "www.google.com",
+            "snippet": "Oct 9, 2020 ... Internal testing. Whether you're running your game by a few friends and family or \ngiving access to key internal staff, Google Play allows you to roll ...",
+            "htmlSnippet": "Oct 9, 2020 <b>...</b> Internal <b>testing</b>. Whether you&#39;re running your game by a few friends and family or <br>\ngiving access to key internal staff, Google Play allows you to roll&nbsp;...",
+            "cacheId": "lmP-LCOnEvYJ",
+            "formattedUrl": "https://www.google.com/.../AD- FnExC71sQkFDNoRrIfoNDZMAA8UWvpSe5n87Dpb- ...",
+            "htmlFormattedUrl": "https://www.google.com/.../AD- FnExC71sQkFDNoRrIfoNDZMAA8UWvpSe5n87Dpb- ...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRlMSC20pNeg81ONsu2uoQqwOAjISWMDZIju1NVNYHDit7lFkYzWVYKhw",
+                        "width": "412",
+                        "height": "122"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "twitter:app:url:iphone": "medium://p/96d0ef3c4d51",
+                        "og:image": "https://miro.medium.com/max/1200/1*RIkFEBkf-kKxQGAY_JJXXQ.png",
+                        "theme-color": "#000000",
+                        "article:published_time": "2020-10-09T17:05:03.754Z",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Medium",
+                        "al:android:package": "com.medium.reader",
+                        "twitter:label1": "Reading time",
+                        "twitter:app:id:iphone": "828256236",
+                        "title": "Pre-launch testing for mobile games: tools and best practices on Google Play | by Francesco Crovetto | Google Play Apps & Games | Medium",
+                        "al:ios:url": "medium://p/96d0ef3c4d51",
+                        "og:description": "A guide to Google Play’s pre-launch tools",
+                        "al:ios:app_store_id": "828256236",
+                        "twitter:data1": "9 min read",
+                        "twitter:site": "@googleplaydev",
+                        "og:type": "article",
+                        "twitter:title": "Pre-launch testing for mobile games: tools and best practices on Google Play",
+                        "al:ios:app_name": "Medium",
+                        "parsely-post-id": "96d0ef3c4d51",
+                        "author": "Francesco Crovetto",
+                        "og:title": "Pre-launch testing for mobile games: tools and best practices on Google Play",
+                        "al:web:url": "https://medium.com/googleplaydev/test-pre-launch-96d0ef3c4d51",
+                        "article:author": "https://medium.com/@fcrovetto",
+                        "twitter:image:src": "https://miro.medium.com/max/1200/1*RIkFEBkf-kKxQGAY_JJXXQ.png",
+                        "al:android:url": "medium://p/96d0ef3c4d51",
+                        "referrer": "unsafe-url",
+                        "fb:app_id": "542599432471018",
+                        "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+                        "twitter:description": "A guide to Google Play’s pre-launch tools",
+                        "og:url": "https://medium.com/googleplaydev/test-pre-launch-96d0ef3c4d51",
+                        "twitter:app:name:iphone": "Medium",
+                        "al:android:app_name": "Medium"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://miro.medium.com/max/8420/1*RIkFEBkf-kKxQGAY_JJXXQ.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Matt Hancock sets target of 100,000 coronavirus tests a day ...",
+            "htmlTitle": "Matt Hancock sets target of 100,000 coronavirus <b>tests</b> a day ...",
+            "link": "https://www.google.com/appserve/mkt/p/AMJ1musf05PA88ZgxX3s4DfQosN531PLqkc6x039Mq7OcUr9lvjt1ygaHBOtNl710OLTaPWlFeS6yCz0W3Ifenz6iu7tWoCS86Ba26xed3V94fnHqVx1xp4mSgea5OPLKqpsZb9DxNqI1P2259-fwqcd79KsOiT-5JiW4NYS-frF2gvIQkIZgkH9s4wXn0ZzXUegTBzQqW_J-gARJQ",
+            "displayLink": "www.google.com",
+            "snippet": "Apr 2, 2020 ... Speaking at the end of his seven days of quarantine after testing positive for the \nvirus, he said: “I'm now setting the goal of 100,000 tests per day ...",
+            "htmlSnippet": "Apr 2, 2020 <b>...</b> Speaking at the end of his seven days of quarantine after <b>testing</b> positive for the <br>\nvirus, he said: “I&#39;m now setting the goal of 100,000 <b>tests</b> per day&nbsp;...",
+            "cacheId": "bxsb3mMrrOgJ",
+            "formattedUrl": "https://www.google.com/.../ AMJ1musf05PA88ZgxX3s4DfQosN531PLqkc6x039Mq7OcUr9lvjt1ygaH...",
+            "htmlFormattedUrl": "https://www.google.com/.../ AMJ1musf05PA88ZgxX3s4DfQosN531PLqkc6x039Mq7OcUr9lvjt1ygaH...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQcLwZaSnebtkTZt9ude4zNENrda0GeZ9dWWsChiVqs2u8gH3KAlp8FxdM",
+                        "width": "310",
+                        "height": "163"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://i.guim.co.uk/img/media/21bfdf5c0595dc629e1e15a5cb334af1c46225b4/0_90_3044_1827/master/3044..jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=7146eda10a8e70a774fd206c246e4fe7",
+                        "twitter:app:id:googleplay": "com.guardian",
+                        "twitter:app:url:iphone": "gnmguardian://world/2020/apr/02/matt-hancock-sets-target-of-100000-coronavirus-tests-a-day?contenttype=Article&source=twitter",
+                        "theme-color": "#052962",
+                        "og:image:width": "1200",
+                        "article:published_time": "2020-04-02T18:31:23.000Z",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "the Guardian",
+                        "twitter:app:url:ipad": "gnmguardian://world/2020/apr/02/matt-hancock-sets-target-of-100000-coronavirus-tests-a-day?contenttype=Article&source=twitter",
+                        "twitter:app:name:googleplay": "The Guardian",
+                        "al:ios:url": "gnmguardian://world/2020/apr/02/matt-hancock-sets-target-of-100000-coronavirus-tests-a-day?contenttype=Article&source=applinks",
+                        "twitter:app:id:iphone": "409128287",
+                        "og:description": "Health secretary ‘determined’ to reach six-figure goal for England by end of April",
+                        "article:publisher": "https://www.facebook.com/theguardian",
+                        "al:ios:app_store_id": "409128287",
+                        "twitter:dnt": "on",
+                        "twitter:image": "https://i.guim.co.uk/img/media/21bfdf5c0595dc629e1e15a5cb334af1c46225b4/0_90_3044_1827/master/3044..jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&s=62918a8da9da6429490f38ea686c8634",
+                        "twitter:site": "@guardian",
+                        "article:modified_time": "2020-07-01T16:55:00.000Z",
+                        "og:type": "article",
+                        "article:section": "World news",
+                        "al:ios:app_name": "The Guardian",
+                        "og:title": "Matt Hancock sets target of 100,000 coronavirus tests a day",
+                        "og:image:height": "720",
+                        "twitter:app:id:ipad": "409128287",
+                        "article:author": "https://www.theguardian.com/profile/rajeev-syal",
+                        "article:tag": "Coronavirus,Science,Matt Hancock,Health policy,Politics,Health,NHS,UK news",
+                        "fb:app_id": "180444840287",
+                        "twitter:app:url:googleplay": "guardian://www.theguardian.com/world/2020/apr/02/matt-hancock-sets-target-of-100000-coronavirus-tests-a-day",
+                        "twitter:app:name:ipad": "The Guardian",
+                        "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+                        "og:url": "http://www.theguardian.com/world/2020/apr/02/matt-hancock-sets-target-of-100000-coronavirus-tests-a-day",
+                        "twitter:app:name:iphone": "The Guardian"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://i.guim.co.uk/img/media/21bfdf5c0595dc629e1e15a5cb334af1c46225b4/0_90_3044_1827/master/3044..jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjAucG5n&enable=upscale&s=7146eda10a8e70a774fd206c246e4fe7"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Android Beta Program",
+            "htmlTitle": "Android Beta Program",
+            "link": "https://www.google.com/android/beta",
+            "displayLink": "www.google.com",
+            "snippet": "All devices that were opted in have been updated to the current public version. If \nyou are still running a beta version, you may download the latest full OTA image ...",
+            "htmlSnippet": "All devices that were opted in have been updated to the current public version. If <br>\nyou are still running a beta version, you may download the latest full OTA image&nbsp;...",
+            "cacheId": "AUFDLyB7DUsJ",
+            "formattedUrl": "https://www.google.com/android/beta",
+            "htmlFormattedUrl": "https://www.google.com/android/beta",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "application-name": "Android Beta Program",
+                        "referrer": "origin",
+                        "apple-mobile-web-app-status-bar-style": "black",
+                        "msapplication-tap-highlight": "no",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "apple-mobile-web-app-capable": "yes",
+                        "apple-mobile-web-app-title": "Android Beta Program",
+                        "mobile-web-app-capable": "yes"
                     }
                 ]
             }
