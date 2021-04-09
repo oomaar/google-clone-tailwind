@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import { useRef } from 'react';
 import { MicrophoneIcon } from "@heroicons/react/solid";
 import { SearchIcon } from "@heroicons/react/solid";
+import { ViewGridIcon } from "@heroicons/react/solid";
+import { Avatar } from '../components';
 
 
 export default function Home() {
@@ -15,26 +17,27 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    // <div className="flex flex-col items-center justify-center h-screen">
+    <div>
       <Head>
         <title>Google Clone</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      {/* Header */}
-      <div className="flex w-full justify-between text-md sm:px-3 py-1">
-        <div className="flex gap-x-4 items-center">
-          <p className="link__style">About</p>
-          <p className="link__style">Store</p>
+      <header className="flex w-full sm:p-5 p-2 justify-between text-sm text-gray-700">
+        <div className="flex space-x-4 items-center">
+          <p className="link">About</p>
+          <p className="link">Store</p>
         </div>
-        <div className="flex gap-x-4 items-center">
-          <p className="link__style">Gmail</p>
-          <p className="link__style">Images</p>
-          <img className="h-10 rounded-full" src="/pharaoh.png" alt="pharaoh" />
+        <div className="flex space-x-4 items-center">
+          <p className="link">Gmail</p>
+          <p className="link">Images</p>
+          <ViewGridIcon className="h-10 w-10 sm:p-2 cursor-pointer rounded-full hover:bg-gray-100" />
+          <Avatar url="/pharaoh.png" />
         </div>
-      </div>
+      </header>
       {/* Body */}
-      <form className="flex flex-1 items-center mt-48 flex-col w-full">
+      {/* <form className="flex flex-1 items-center mt-48 flex-col w-full">
         <img className="object-contain h-20 mb-8" src="/logo.png" alt="Google" />
         <div className="input__container">
           <SearchIcon className="h-5 mr-3 text-gray-500" />
@@ -51,7 +54,7 @@ export default function Home() {
           </button>
           <button onClick={search} className="btn">Im Feeling Lucky</button>
         </div>
-      </form>
+      </form> */}
       {/* Footer */}
     </div>
   )

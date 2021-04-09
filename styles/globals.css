@@ -11,7 +11,7 @@
         @apply flex w-full max-w-xl rounded-full border border-gray-200 py-3 px-5 items-center shadow-sm focus-within:shadow-xl;
     }
 
-    .link__style {
+    .link {
         @apply hover:underline cursor-pointer;
     }
 }
