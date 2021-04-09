@@ -12,7 +12,11 @@ export default function Home() {
 
   const search = e => {
     e.preventDefault();
-    router.push(`/search?term=${searchInputRef.current.value}`);
+    const term = searchInputRef.current.value;
+
+    if (!term) return;
+
+    router.push(`/search?term=${term}`);
   };
 
   return (
@@ -47,8 +51,8 @@ export default function Home() {
           <MicrophoneIcon className="h-5 cursor-pointer" />
         </div>
         <div className="home__buttonsContainer">
-          <button className="btn">Google Search</button>
-          <button className="btn">Im Feeling Lucky</button>
+          <button onClick={search} className="btn">Google Search</button>
+          <button onClick={search} className="btn">Im Feeling Lucky</button>
         </div>
       </form>
       <Footer />
