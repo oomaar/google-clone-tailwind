@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useRouter } from "next/router";
 import { useRef } from 'react';
 import { MicrophoneIcon, ViewGridIcon, SearchIcon } from "@heroicons/react/solid";
-import { Avatar } from '../components';
+import { Avatar, Footer } from '../components';
 import Image from 'next/image';
 
 
@@ -16,8 +16,7 @@ export default function Home() {
   };
 
   return (
-    // <div className="flex flex-col items-center justify-center h-screen">
-    <div>
+    <div className="flex flex-col items-center justify-center h-screen">
       <Head>
         <title>Google Clone</title>
         <link rel="icon" href="/favicon.png" />
@@ -35,7 +34,7 @@ export default function Home() {
           <Avatar url="/pharaoh.png" />
         </div>
       </header>
-      <form className="flex flex-col items-center mt-44 flex-grow">
+      <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
         <Image
           src="/logo.png"
           alt="Google"
@@ -52,7 +51,7 @@ export default function Home() {
           <button className="btn">Im Feeling Lucky</button>
         </div>
       </form>
-      {/* Footer */}
+      <Footer />
     </div>
   )
 }
